@@ -29,9 +29,4 @@ describe('tranverse method',function(){
         cy.visit('https://webdriveruniversity.com/Data-Table/index.html') 
         cy.get('#milk').next().should('have.text',"Espresso")
     })
-
-
-
-
-
 })
