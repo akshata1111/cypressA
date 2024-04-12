@@ -29,7 +29,6 @@ describe('tables in cypress', function () {
             })
     })
 
-
     it('verify the sum of table columns - table 2', function () {
         let sum = 0
         cy.visit('https://webdriveruniversity.com/Data-Table/index.html')
@@ -54,6 +53,4 @@ describe('tables in cypress', function () {
         cy.visit('https://webdriveruniversity.com/Data-Table/index.html')
         calculateAge(2, 163)
     })
-
-
 })
