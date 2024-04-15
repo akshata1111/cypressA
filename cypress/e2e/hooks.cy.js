@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 
 before(function(){
-    cy.log("First ------ A")
+    cy.log("First -- A")
 })
 
 beforeEach(function(){
@@ -21,5 +21,5 @@ afterEach(function(){
 })
 
 after(function(){
-    cy.log("Last ---------Z")
+    cy.log("Last ---Z")
 })
