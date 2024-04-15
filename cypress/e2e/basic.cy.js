@@ -1,17 +1,17 @@
 /// <reference types="cypress" />
 
-describe('verify cypress basic commands',function(){
-    it('verify the title of page',function(){
+describe('Verify Cypress Basiccommands',function(){
+    it('Verify Title of the page',function(){
         cy.visit('https://webdriveruniversity.com/')
         cy.title().should('contain','WebDriverUniversity.com')
     })
 
-    it('verify current url',function(){
+    it('Verify Current URL',function(){
         cy.visit('https://webdriveruniversity.com/')
         cy.url().should('contain','webdriveruniversity')
     })
 
-    it.skip('how to log on cypress test runner',function(){
+    it.skip('How to log on Cypress test runner',function(){
         cy.visit('https://webdriveruniversity.com/Dropdown-Checkboxes-RadioButtons/index.html')
         cy.log("before radio button")
        
@@ -21,7 +21,7 @@ describe('verify cypress basic commands',function(){
         cy.contains('label',"Option 3").should('be.visible')
         cy.log("after radio button")
     })
-    it.only('how to log on cypress test runner',function(){
+    it.only('How to log on Cypress test runner',function(){
         cy.visit('https://webdriveruniversity.com/Dropdown-Checkboxes-RadioButtons/index.html')
         cy.reload()
         cy.wait(2000)

@@ -15,5 +15,4 @@ describe('verify the login', function () {
     it('verify the login with invalid credentials', function () {
         cy.get('h3[data-test= "error"]').should('be.visible')
     })
-
 })

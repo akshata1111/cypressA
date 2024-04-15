@@ -28,5 +28,4 @@ describe('verify the contact us form',function(){
         cy.get('input[name="email"]').should('have.text','')
         cy.get('textarea[name="message"]').should('have.text','')
     })
-
 })
