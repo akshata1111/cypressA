@@ -14,20 +14,10 @@ describe('validate the login functionality',function(){
         cy.get('#login-button').click()
         // assertion
         cy.get('.app_logo').should('be.visible')
-
-
-
     })
 
     // test case 2
     it('login with invalid credentials',function(){
-
-
     })
-
-
 })
-
-//
-
 
