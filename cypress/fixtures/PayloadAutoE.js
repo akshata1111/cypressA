@@ -1,0 +1,20 @@
+export default {
+    username: "Akshata",
+    email: `akshata38977${Math.floor(Math.random(10000)*6)}@gmail.com`,
+    title: "Mrs",
+    password: "Akshata",
+    dd: 1,
+    mm: "June",
+    yy: "2001",
+    firstname: "Akshata",
+    lastname: "Sonkusale",
+    company: "Pune",
+    address1: "Pune",
+    address2: "Pune",
+    country: "India",
+    state: "Maharashtra",
+    city: "Pune",
+    zipcode: 888888,
+    mobno: 99999999999,
+
+}

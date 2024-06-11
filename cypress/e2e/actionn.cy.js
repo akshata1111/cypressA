@@ -1,3 +1,5 @@
+/// <reference types="cypress" />
+
 describe('Actions Page Test Suite', () => {
     beforeEach(() => {
       cy.visit('https://webdriveruniversity.com/Actions/index.html');
