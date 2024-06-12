@@ -4,8 +4,8 @@ class homePage{
         lastName : '[name="last_name"]'
     }
     contactUs(){
-        cy.get(this.selectors.firstName).type('Dipanshu')
-        cy.get(this.selectors.lastName).type('Chawde')
+        cy.get(this.selectors.firstName).type('Akshata')
+        cy.get(this.selectors.lastName).type('SS')
     }
 }
 

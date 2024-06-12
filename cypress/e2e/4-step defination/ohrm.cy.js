@@ -1,7 +1,8 @@
 ///<reference types = "cypress" />
 import page from "../pages/3.OHRM"
 import data from "../../fixtures/orange.json"
-describe('verify ohrm page',function(){
+
+describe('Verify ohrm page',function(){
     let mp=new page
     it('login page valid',function(){
         mp.visitUrl()
